@@ -181,7 +181,7 @@ module.exports = function(config) {
 
         register(source, app) {
 
-            const Twig = require('twig');
+            const Twig = require('dpm-twig');
 
             if (!config.pristine) {
                 _.each(require('./functions')(app) || {}, function(func, name){

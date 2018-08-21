@@ -14,10 +14,10 @@
   },
   "homepage": "https://github.com/frctl/twig",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "dpm-twig": "^1.12.0"
   },
   "peerDependencies": {
-    "@frctl/fractal": "^1.1.0-beta.1",
-    "twig": "^1.0.0"
+    "@frctl/fractal": "^1.1.0-beta.1"
   }
 }
